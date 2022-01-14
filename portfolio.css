@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* top: 0px; */
+
+}
+.container{
+    max-width: 100%;
+    height: 100rem;
+    text-align: center;
+}
+.navigation{
+    /* background-color: cadetblue; */
+    font-size: 30px;
+    display: flex;
+    padding: 15px;
+}
+
+
+
+.space{
+    display: block;
+    padding: 10px;
+    color: blanchedalmond;
+}
+
+.mid{
+    /* background-color: red; */
+    display: flex;
+     align-items: center;
+     position:fixeds;
+     padding-left: 570px;
+     padding-right: 570px;
+
+    
+}
+
+.right a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.container .mid a{
+    padding: 10px;
+    font-size: 30px;
+    color: blanchedalmond;
+    list-style: none;
+    text-decoration: none;
+    
+}
+/* .navigation .right{
+    list-style: none;
+    color: blanchedalmond;
+} */
+
+
+.One{
+    display: block;
+    /* position: absolute; */
+    /* margin-top: 900px; */
+    width: 1900px;
+    height: 1000px;
+    /* background-color: blue; */
+    background-image: url("https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 80%;
+    height: 80%; */
+    
+}
+.container .One .rightbox{
+    /* left: 89px; */
+    float: right;
+    width: 670px;
+    height: 470px;
+    margin-right: 110px;
+    /* margin-left: 1050px; */
+    margin-top: 200px;
+    background-color: green;
+}
+
+.container .One .leftbox{
+    text-align: left;
+    display: inline-block;
+    margin-top: 300px;
+    padding: 34px;
+    color: blanchedalmond;
+    /* top: 67px; */
+
+    /* background-color: greenyellow; */
+}
+
+.container .One .leftbox .lea{
+    font-size: 75px;
+}
+
+.container .One .leftbox .stand{
+    font-size: 24px;
+}
+
+.second{
+    width: 1900px;
+    height: 1000px;
+    /* text-align: center; */
+    
+}
+.second h1{
+    padding-top: 67px;
+    font-size: 70px;
+    text-align: center;
+
+}
+.second p{
+    font-size: 25px;
+    text-align: center;
+}
+.second a{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    list-style: none;
+    font-size:20px;
+    padding: 20px;
+    /* top: 250px; */
+    text-decoration: underline;
+    /* text-align: center; */
+}
+.second .box1{
+    margin-right: 195px;
+    margin-top: 75px;
+    display: flex;
+    float: right;
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    list-style: none;
+}
+
+.second .box2{
+    margin-right: 125px;
+    margin-top: 75px;
+    display: flex;
+    float: right;
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+}
+.second .box1 a{
+    display: inline-block;
+    top: 390px;
+    list-style: none;
+    left: 0px;
+
+}
+.second .box2  a{
+    display: inline-block;
+    top: 390px;
+    list-style: none;
+    
+    left: 0px;
+}
+
+.third{
+    width: 1900px;
+    height: 1900px;
+    background-color: rgb(98, 163, 165);
+    color: rgb(250, 249, 248);
+    /* display: inline-block; */
+}
+
+.third h1{
+    padding: 23px;
+    padding-top: 69px;
+    font-size: 57px;
+}
+.third p{
+    font-size: 20px;
+    padding-bottom: 25px;
+    
+}
+.third .create {
+    font-size: 20px;
+    
+    list-style: none;
+    
+}
+.third .box11{
+    display: inline-block;
+    width: 1400px;
+    height: 900px;
+    background-image: url("https://images.pexels.com/photos/4321194/pexels-photo-4321194.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 44px;
+
+}
+
+.third .box22{
+    display: inline-block;
+    width: 870px;
+    height: 670px;
+    background-image: url("https://images.pexels.com/photos/4946388/pexels-photo-4946388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 126px;
+
+
+}
+.third .box33{
+    margin: 89px;
+    margin-left: 890px;
+    width: 670px;
+    height: 470px;
+    margin-right: 110px;
+    display: block;
+    background-color: darkgrey;
+
+}
+.third .box44{
+    float:left;
+    display: block;
+    background-color: darksalmon;
+}
+.third .lower{
+    display: flexbox;
+}
